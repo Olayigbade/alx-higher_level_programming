@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-num = 96
-while num < 123:
-    print(chr(num),end='')
-    num = num + 1
+
+for ch in range(97, 123):
+
+            print("{:c}".format(ch), end='')
